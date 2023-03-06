@@ -1,0 +1,14 @@
+package com.sola.extractor.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class DataDTO {
+    private Integer dia;
+    private Double valor;
+}
+
